@@ -1,0 +1,4 @@
+repository "2D_Monks_Reveng@GMC_DYNAMITE_87@cloud"
+  path "/"
+    br "/main"
+    co "/main"
