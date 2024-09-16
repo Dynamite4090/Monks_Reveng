@@ -6,13 +6,10 @@ public class EnemyPatrol : MonoBehaviour
     public Transform pointB;
     public float speed = 2f;
     private Vector3 target;
-    private Animator animator;
 
     void Start()
     {
         target = pointB.position;
-        animator = GetComponent<Animator>();
-        SetAnimationState("Run");
     }
 
     void Update()
@@ -29,15 +26,6 @@ public class EnemyPatrol : MonoBehaviour
             target = target == pointA.position ? pointB.position : pointA.position;
             Flip();
         }
-
-        if (Vector3.Distance(transform.position, target) < 0.1f)
-        {
-            SetAnimationState("Idle");
-        }
-        else
-        {
-            SetAnimationState("Run");
-        }
     }
 
     void Flip()
@@ -45,10 +33,5 @@ public class EnemyPatrol : MonoBehaviour
         Vector3 localScale = transform.localScale;
         localScale.x *= -1;
         transform.localScale = localScale;
-    }
-
-    void SetAnimationState(string state)
-    {
-        animator.Play(state);
     }
 }
