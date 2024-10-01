@@ -1,44 +1,7 @@
-// using UnityEngine;
-
-// public class EnemyPatrol : MonoBehaviour
-// {
-//     public Transform pointA;
-//     public Transform pointB;
-//     public float speed = 2f;
-//     private Vector3 target;
-
-//     void Start()
-//     {
-//         target = pointB.position;
-//     }
-
-//     void Update()
-//     {
-//         MoveEnemy();
-//     }
-
-//     void MoveEnemy()
-//     {
-//         transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
-
-//         if (Vector3.Distance(transform.position, target) < 0.1f)
-//         {
-//             target = target == pointA.position ? pointB.position : pointA.position;
-//             Flip();
-//         }
-//     }
-
-//     void Flip()
-//     {
-//         Vector3 localScale = transform.localScale;
-//         localScale.x *= -1;
-//         transform.localScale = localScale;
-//     }
-// }
 using UnityEngine;
 using System.Collections;
 
-public class EnemyPatrol : MonoBehaviour
+public class Emale1 : MonoBehaviour
 {
     public Transform pointA;
     public Transform pointB;
@@ -51,8 +14,17 @@ public class EnemyPatrol : MonoBehaviour
     void Start()
     {
         target = pointB.position;
-        animator = GetComponent<Animator>(); // Assuming you have an Animator for the idle/run animations
-        StartCoroutine(Patrol());
+        animator = GetComponent<Animator>();
+
+        // Check if Animator exists to avoid errors
+        if (animator == null)
+        {
+            Debug.LogError("Animator component missing from the Emale1 GameObject.");
+        }
+        else
+        {
+            StartCoroutine(Patrol());
+        }
     }
 
     IEnumerator Patrol()
@@ -68,12 +40,22 @@ public class EnemyPatrol : MonoBehaviour
 
             // Once the enemy reaches the target, flip the direction and stop for a while
             Flip();
-            animator.SetBool("runm1", false); // Set idle animation
+
+            // Set idle animation if animator exists
+            if (animator != null)
+            {
+                animator.SetBool("runm1", false); // Set idle animation
+            }
+            
             isIdle = true;
             yield return new WaitForSeconds(stopTime); // Wait at point
 
             // Switch to running animation and move to the next point
-            animator.SetBool("runm1", true);
+            if (animator != null)
+            {
+                animator.SetBool("runm1", true); // Set running animation
+            }
+
             isIdle = false;
             target = target == pointA.position ? pointB.position : pointA.position;
         }

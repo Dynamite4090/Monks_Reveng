@@ -716,6 +716,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.1215103}
   m_EdgeRadius: 0
+--- !u!1 &769423281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7718441838607481884, guid: a2b8d127f503d054f95b39067207a4b8, type: 3}
+  m_PrefabInstance: {fileID: 2491728674593627441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &769423282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769423281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 614657908acc4634cae9845b5bf13574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointA: {fileID: 5381216033086728264}
+  pointB: {fileID: 6770463352377840583}
+  speed: 6
+  stopTime: 1
 --- !u!4 &931626519 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2152077334147012442, guid: a23c6d6410063224f8d47f6667efbbba, type: 3}
@@ -1387,11 +1408,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5876825535231416655, guid: d442976587d33cc4b9e51f639ccb7a07, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 915128096694438152, guid: d442976587d33cc4b9e51f639ccb7a07, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1641501620268571207}
   m_SourcePrefab: {fileID: 100100000, guid: d442976587d33cc4b9e51f639ccb7a07, type: 3}
+--- !u!1 &1641501620268571206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 915128096694438152, guid: d442976587d33cc4b9e51f639ccb7a07, type: 3}
+  m_PrefabInstance: {fileID: 1641501620268571205}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1641501620268571207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641501620268571206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76b14e7406eed3b4a8e570245e289ed4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointA: {fileID: 1560613841}
+  pointB: {fileID: 348272005}
+  speed: 6
+  stopTime: 1
 --- !u!1001 &2322336762213123482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1509,10 +1555,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4242027366069481795, guid: a2b8d127f503d054f95b39067207a4b8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7718441838607481884, guid: a2b8d127f503d054f95b39067207a4b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 769423282}
   m_SourcePrefab: {fileID: 100100000, guid: a2b8d127f503d054f95b39067207a4b8, type: 3}
 --- !u!1001 &3010969618416715035
 PrefabInstance:
@@ -1698,11 +1748,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6098498497662752782, guid: b052c1efc2f9eed48bbeaa16ec501217, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8614147111896864258, guid: b052c1efc2f9eed48bbeaa16ec501217, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6941548191511244752}
   m_SourcePrefab: {fileID: 100100000, guid: b052c1efc2f9eed48bbeaa16ec501217, type: 3}
+--- !u!1 &6941548191511244751 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8614147111896864258, guid: b052c1efc2f9eed48bbeaa16ec501217, type: 3}
+  m_PrefabInstance: {fileID: 6941548191511244750}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6941548191511244752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6941548191511244751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7a66607c4ccb044ae6fd8c0083f12e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointA: {fileID: 931626519}
+  pointB: {fileID: 2023655570}
+  speed: 6
+  stopTime: 1
 --- !u!1001 &7734810712444888424
 PrefabInstance:
   m_ObjectHideFlags: 0
