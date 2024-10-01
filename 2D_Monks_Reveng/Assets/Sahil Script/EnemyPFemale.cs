@@ -2,7 +2,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class EnemyPFemale : MonoBehaviour
+public class enemyPFemale : MonoBehaviour
 {
     public Transform pointA;
     public Transform pointB;
