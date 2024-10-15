@@ -1,0 +1,3251 @@
+fileFormatVersion: 2
+guid: 45ebb326ed2e3ff499a5419c02038fc6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player 1 monk_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1888
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fc7d4c18fe83b43893e319df277efb
+      internalID: -720975692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1888
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149a2447fabe9424eb0f94cb93ed824a
+      internalID: 1717303373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1888
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3546ce122cf2c49a041b904ae81672
+      internalID: 593095520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1888
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b1b65180499b644a691ac19c00a2e9
+      internalID: 1434484417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1888
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f18fffb50d65b45b855c99f2f4ffd1
+      internalID: 1546262533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1888
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac82e619a2ecf6f458932d4426df9d75
+      internalID: -1527608437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1888
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e1af72ef020bb4b836df0745ed903f
+      internalID: 1735773770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1824
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff5ef12df019e54d9461e99a85fdfea
+      internalID: -574165626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1824
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e121057742dd94e97ddaa88876aa7b
+      internalID: -1383778202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1824
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf48c4b703f06c47b10a0464a6582c6
+      internalID: 1272596902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1824
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f352b0fdfee2d4aa0187888d4aeb9a
+      internalID: -1687110935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1824
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7fe89ee25882141a418f5a9f1feb51
+      internalID: 1004971291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_12
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1824
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cc519d54fd1f5458eac14d47720afc
+      internalID: -1260496909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_13
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1824
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6e84688f803b647a28b889107bb186
+      internalID: -962552362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1760
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d92d6cf5dc8c504aa120e82dd7d9b97
+      internalID: 46860207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1760
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1880fc059320bc343b9ef9dded11d64d
+      internalID: -959763595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1760
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181d94def6dce9e4988d1d00880efbe5
+      internalID: -246862369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1760
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b172c4032d5ec974a885e8a6b1181ba6
+      internalID: -754163492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1760
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2831d823fa74e4293ecaf9faf647fd
+      internalID: -1041278405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1760
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dc59445c4ce02418d456c18d51d92e
+      internalID: -1976265997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1760
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d449675a1bf3eb346a0b822139526b26
+      internalID: 1130888789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1696
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ee699d5621d604ab93995f90a1595a
+      internalID: -917923801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1696
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd95d8123c90d04f82b3f112ce96af1
+      internalID: 1454448388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1696
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0b653482497fd4aadf5aff9edef9bd
+      internalID: -1412993787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1696
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f569e20afc1be94682ff91ccc61f0be
+      internalID: 1475550133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1696
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f441ea27a0bbfa8429204a6299f3b8a4
+      internalID: -1327272286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1696
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c4774e6848b8349b4e157655e78f88
+      internalID: -1338540120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1696
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a213cad3456242b4f9d26ae9ce8fd74e
+      internalID: 1051985281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1568
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbf8190c8721fd42aa2505326d71dc3
+      internalID: -826694861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1568
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779133a51220dc349a301bba7c6c3569
+      internalID: -384241464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1568
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d0605a653266449937cbd20e83260d
+      internalID: 434715285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1568
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b113de64d46bd42a5fc9f23c3d4e66
+      internalID: 735460187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_32
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1568
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0c1165734085f44bde3ff8431c8ddc
+      internalID: -417163471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_33
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1568
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438b2f506856b57488dbb8d764b2e18a
+      internalID: -1185200436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_34
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1568
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e117d906bd4284eaf35c676abc1e6b
+      internalID: 253964480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_35
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1568
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128b48c645e660649a9fa24c167ad695
+      internalID: 1805702397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1440
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf9457496782f2439a0bb833065db5d
+      internalID: 1723149454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_37
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1440
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46d8941b1b67a741ae6572d352b1692
+      internalID: -994045802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1440
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ea0aed700ecc146a0a86a5fdac19c9
+      internalID: -1341024633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_39
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1440
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0950e01fa61ab5648a93fd5fbef27ca9
+      internalID: -378244743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_40
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1440
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0c082d7842c1646a3ef925cf54f035
+      internalID: 1516468027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_41
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1440
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b949a438725ae9a41a19fa709080dfcf
+      internalID: 2051777772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_42
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1440
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc18756f8631ed6489292a9c4be62164
+      internalID: -1826397256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_43
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1440
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc9b0960b783c740a2a6bbc66e357e4
+      internalID: 2122345890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_44
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1312
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf322cfe8f4a32845bd254d57e99dcd3
+      internalID: -6324815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_45
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1312
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd1d1d17443a38418e7e46f2f56e08f
+      internalID: -1999539204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_46
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1314
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6a01c895b3da2448b52c6ca7cf1b7b
+      internalID: -1782555463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_47
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1313
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388fe32f801406849a9ae95680f251db
+      internalID: -2098557238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_48
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1313
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba9098fabf4af346b865108743b6b59
+      internalID: 1022421275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_49
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1312
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc1db10c548ef24d897c54965fd8244
+      internalID: 1905904218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_50
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1313
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b2dae9aaec93e4e828e297862d3b9c
+      internalID: 320116159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_51
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1312
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547383dbb68ef424cbafd841991ace3e
+      internalID: 595659231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_52
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1312
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d20780bc2a2f744abe90d44bdd53ec
+      internalID: -304229944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_53
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1184
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7955aaeac9b8ec34d9885b060754763f
+      internalID: -48994002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_54
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1184
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaeda1ed773f28141bfdc538ffdbdd7a
+      internalID: 1266123679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_55
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1186
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59de073c70ebdea4b989813a6f349237
+      internalID: -2124837449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_56
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1185
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3019c9a7ef0cc1448beda26cf3c6270f
+      internalID: 227186214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_57
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1185
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798ee27b79595cc44a110cbb14cb4908
+      internalID: 2139012425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_58
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1184
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0880d05d05a816e469d5d768a1711c35
+      internalID: -2002464940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_59
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1185
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333aea827736c354785ddb3c1145bd60
+      internalID: -1324581974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_60
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1184
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1edb6241562d214eb305f912d9163ef
+      internalID: -1938637972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_61
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1184
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99dadc904b1c6748b1abdffa2cfc7ab
+      internalID: 1250044032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1120
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c682a18bee86edd4cb73f54f04335072
+      internalID: -128106850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_63
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1119
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbe59b94a235c240bf08bc709a2f65d
+      internalID: -1643958306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_64
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1119
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8296fb7a25095554a9e959cd815bf963
+      internalID: 912326000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_65
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1119
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b8a217fd11e53469f313fc0881d868
+      internalID: -2058965160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_66
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1119
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afa90c30771910499ce4313ad0d6542
+      internalID: 1483668823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_67
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1119
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b018ac25c57140347be12fed8dad75c0
+      internalID: 1177826776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_68
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1056
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893d61d127428a04ab9f2e9fd93f36e1
+      internalID: -1663232763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_69
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1056
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d74a86f3c31f384dabfc094b54dbb68
+      internalID: 862177216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_70
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1056
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667e204b03522224d9c319581725230a
+      internalID: -1109236306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_71
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1056
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84558ac1aed82a48a0d3aad1bc8031f
+      internalID: -1972613801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_72
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1056
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920bb7e675a084840a5b142c39792c26
+      internalID: 1630274209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_73
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1056
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37055e26e1c5bb243b44470be03670df
+      internalID: 763200960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_74
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 992
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f539fc9af0b7ef4f8123091e266b60d
+      internalID: -1052541536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_75
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 992
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2295817a5f05c47a79b154c7c40a43
+      internalID: -2000592807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_76
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 992
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293331798b5a0ab4e8fc967f74df2f67
+      internalID: 634822803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_77
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 992
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6673afae917c1624c97db744b86e9e6c
+      internalID: 312377312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_78
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 992
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96af22e82340c364c99b1ab7a22d1a52
+      internalID: 1050793937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_79
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 992
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8b9618ec679684fbec7fd1708fcb89
+      internalID: -843441390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_80
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 928
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c5f33f829ada048b65eec610991c71
+      internalID: -1229501648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_81
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 928
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6fe87d2a37b904482c93e42c77331d
+      internalID: -1092375414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_82
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 928
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2b5dfea949fa847a5168bfaa78a021
+      internalID: 1121687366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_83
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 928
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c985cd3e86d6cec4fb6ac3de0e37b824
+      internalID: 1425673455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_84
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 928
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e031aa480db478e41b14589bee94004f
+      internalID: -140294275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_85
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 928
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ab5e81f1fbd924bbcc2a2f4d96a456
+      internalID: -77447427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_86
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 800
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73abc81652320c4a9f9011cc9a859ff
+      internalID: -1448805729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_87
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 800
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faad98993b9a85a41a62661718cd3c86
+      internalID: 464468860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_88
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 800
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6525648b4d61cc54784e51fc6807c735
+      internalID: 272978375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_89
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 800
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f1ed7d9adb95d439bd630013a56a1f
+      internalID: 1300957945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_90
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 800
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25827f52ea5922840a87323ceeba20f5
+      internalID: -1757069590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_91
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 800
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f4e3f6bba26424e85203a40757acaa
+      internalID: -1574685961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_92
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 800
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc78865fc96d5da4fbef38a7b4bf10bf
+      internalID: 263498275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_93
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 800
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e979c330864ed469d1f6a7673727ed
+      internalID: 596502994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_94
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 800
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e1753322beed94fa4cd1f628834d52
+      internalID: -94892544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_95
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 800
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70df74f0530f67444a0ed574210f9616
+      internalID: -1112863720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_96
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 800
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19af5d202e160c54ca5d6f931c52ebc0
+      internalID: -880436014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_97
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 800
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45611b331e579f54cb548aa2e5f9bcfb
+      internalID: -17449369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_98
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 800
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b42533f93706c4786fcb48abed5ef4
+      internalID: 703508787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_99
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 672
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f77b2b88c978645940954c028dd56c
+      internalID: -1967322956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_100
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 672
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6cdea65d072cf4d906bb16ffebbd52
+      internalID: 30507994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_101
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 672
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7882b9779b804184493a6421480a5b53
+      internalID: 1537853842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_102
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 672
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0cf90a523e1f04fb9b477298b09bb2
+      internalID: 581036580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_103
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 672
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5753c31619d874a9042e2c030c4d5f
+      internalID: -229548691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_104
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 672
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5869e8858ec57048b46fdf5de777736
+      internalID: 189517455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_105
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 672
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf85b021287a2944a158b6a9ad5e96a
+      internalID: -1429286477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_106
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 672
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b187424e2b392c42abe7692803ff26b
+      internalID: -1337435748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_107
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 672
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b77da86d912a0458656490bad0a72b
+      internalID: 2073472460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_108
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 672
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa4ae47b381ef248b5d6e81eeda3537
+      internalID: 358193163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_109
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 672
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357804a146702f048a9dfe2d8dcabe70
+      internalID: 972633163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_110
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 672
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c7abff9948f75479f56d7b06819450
+      internalID: -2065706348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_111
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 672
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6592e48ce7908f740a99d8d1e2d1e6d3
+      internalID: 1673519150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_112
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 611
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8509c7db7d6db544bb102e16822f1d59
+      internalID: 1993650384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_113
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 608
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aa1098bb95dea4b9c5dc651164fa1d
+      internalID: 935337074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_114
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 611
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec09a2c4cdd6c184aaac9d70478d28f0
+      internalID: 1342341916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_115
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 609
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8a298449aa82b47a73d0c288165e3a
+      internalID: -825486794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_116
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 612
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fd2152ead0d694eb0a45d22dd2b5fc
+      internalID: 614475585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_117
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 608
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c654093ea93e75e4dba6b9599b4bcf96
+      internalID: -1697769778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_118
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 469
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d22df4637bfd046be985fa60446966
+      internalID: 1798109137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_119
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 468
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f39150caf6a94459bd8e08a40914f4
+      internalID: -150097985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_120
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 468
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb4c18d82ab135439875ad12cab7f2f
+      internalID: -505773803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_121
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 468
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4884d776c688164eb3620a1383b5da9
+      internalID: 1305899647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_122
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 468
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b6748f7a365f74785c0be0afe507a6
+      internalID: 148276814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_123
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 468
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8edcb8f96c53b4f9bbcc5c6681a1b1
+      internalID: -551774943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_124
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 468
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264ae879ff6901d46808c65eef773c60
+      internalID: -1468450331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_125
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 468
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff6a04f152db0845b778180be70350f
+      internalID: 1300114657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_126
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 277
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0767031b743eda4aad4ff59cb1f8666
+      internalID: 1571999615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_127
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 277
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e7402d1d398004a9f0c295d57f00a8
+      internalID: 1967065510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_128
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 277
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04422466f48166746bfafddd22227095
+      internalID: 2010869459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_129
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 277
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad5ce29af4eebb469296c943dd92ad3
+      internalID: -318232052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_130
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 277
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829584e97ae300a4ba061aee70aa10d7
+      internalID: -379800529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_131
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 277
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b2ab9b65c2c964b8079973a40b5090
+      internalID: -139202647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_132
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 277
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa833d698f96acf41867585d7c53e363
+      internalID: -1593219664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_133
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 277
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7547d8ad8f72cfe49898095dff5688ad
+      internalID: -1045124839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_134
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 81
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6390f9ea0735ac4e8f9a62cfba33e96
+      internalID: 810966341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_135
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 81
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2999d1ea925cca44bac88ab40ae14160
+      internalID: -1585553284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_136
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 81
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784d2b899ce5cb84a8e580bf9f508e83
+      internalID: -390464615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_137
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 81
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5abf56f3fb5014458fb4429c6fdff8a
+      internalID: -342384905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_138
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 81
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d5c06fbc7af5746ae3b75773706365
+      internalID: -642851623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_139
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 81
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e136859ffd667488c5adeb46008b6b
+      internalID: 528696434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_140
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 81
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e32b6561818d440a791e6f8dde41f0
+      internalID: -136158697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player 1 monk_141
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 81
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4164093c1ba6ad841ac1ace671b6186b
+      internalID: 816124103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      player 1 monk_0: -720975692
+      player 1 monk_1: 1717303373
+      player 1 monk_10: -1687110935
+      player 1 monk_100: 30507994
+      player 1 monk_101: 1537853842
+      player 1 monk_102: 581036580
+      player 1 monk_103: -229548691
+      player 1 monk_104: 189517455
+      player 1 monk_105: -1429286477
+      player 1 monk_106: -1337435748
+      player 1 monk_107: 2073472460
+      player 1 monk_108: 358193163
+      player 1 monk_109: 972633163
+      player 1 monk_11: 1004971291
+      player 1 monk_110: -2065706348
+      player 1 monk_111: 1673519150
+      player 1 monk_112: 1993650384
+      player 1 monk_113: 935337074
+      player 1 monk_114: 1342341916
+      player 1 monk_115: -825486794
+      player 1 monk_116: 614475585
+      player 1 monk_117: -1697769778
+      player 1 monk_118: 1798109137
+      player 1 monk_119: -150097985
+      player 1 monk_12: -1260496909
+      player 1 monk_120: -505773803
+      player 1 monk_121: 1305899647
+      player 1 monk_122: 148276814
+      player 1 monk_123: -551774943
+      player 1 monk_124: -1468450331
+      player 1 monk_125: 1300114657
+      player 1 monk_126: 1571999615
+      player 1 monk_127: 1967065510
+      player 1 monk_128: 2010869459
+      player 1 monk_129: -318232052
+      player 1 monk_13: -962552362
+      player 1 monk_130: -379800529
+      player 1 monk_131: -139202647
+      player 1 monk_132: -1593219664
+      player 1 monk_133: -1045124839
+      player 1 monk_134: 810966341
+      player 1 monk_135: -1585553284
+      player 1 monk_136: -390464615
+      player 1 monk_137: -342384905
+      player 1 monk_138: -642851623
+      player 1 monk_139: 528696434
+      player 1 monk_14: 46860207
+      player 1 monk_140: -136158697
+      player 1 monk_141: 816124103
+      player 1 monk_15: -959763595
+      player 1 monk_16: -246862369
+      player 1 monk_17: -754163492
+      player 1 monk_18: -1041278405
+      player 1 monk_19: -1976265997
+      player 1 monk_2: 593095520
+      player 1 monk_20: 1130888789
+      player 1 monk_21: -917923801
+      player 1 monk_22: 1454448388
+      player 1 monk_23: -1412993787
+      player 1 monk_24: 1475550133
+      player 1 monk_25: -1327272286
+      player 1 monk_26: -1338540120
+      player 1 monk_27: 1051985281
+      player 1 monk_28: -826694861
+      player 1 monk_29: -384241464
+      player 1 monk_3: 1434484417
+      player 1 monk_30: 434715285
+      player 1 monk_31: 735460187
+      player 1 monk_32: -417163471
+      player 1 monk_33: -1185200436
+      player 1 monk_34: 253964480
+      player 1 monk_35: 1805702397
+      player 1 monk_36: 1723149454
+      player 1 monk_37: -994045802
+      player 1 monk_38: -1341024633
+      player 1 monk_39: -378244743
+      player 1 monk_4: 1546262533
+      player 1 monk_40: 1516468027
+      player 1 monk_41: 2051777772
+      player 1 monk_42: -1826397256
+      player 1 monk_43: 2122345890
+      player 1 monk_44: -6324815
+      player 1 monk_45: -1999539204
+      player 1 monk_46: -1782555463
+      player 1 monk_47: -2098557238
+      player 1 monk_48: 1022421275
+      player 1 monk_49: 1905904218
+      player 1 monk_5: -1527608437
+      player 1 monk_50: 320116159
+      player 1 monk_51: 595659231
+      player 1 monk_52: -304229944
+      player 1 monk_53: -48994002
+      player 1 monk_54: 1266123679
+      player 1 monk_55: -2124837449
+      player 1 monk_56: 227186214
+      player 1 monk_57: 2139012425
+      player 1 monk_58: -2002464940
+      player 1 monk_59: -1324581974
+      player 1 monk_6: 1735773770
+      player 1 monk_60: -1938637972
+      player 1 monk_61: 1250044032
+      player 1 monk_62: -128106850
+      player 1 monk_63: -1643958306
+      player 1 monk_64: 912326000
+      player 1 monk_65: -2058965160
+      player 1 monk_66: 1483668823
+      player 1 monk_67: 1177826776
+      player 1 monk_68: -1663232763
+      player 1 monk_69: 862177216
+      player 1 monk_7: -574165626
+      player 1 monk_70: -1109236306
+      player 1 monk_71: -1972613801
+      player 1 monk_72: 1630274209
+      player 1 monk_73: 763200960
+      player 1 monk_74: -1052541536
+      player 1 monk_75: -2000592807
+      player 1 monk_76: 634822803
+      player 1 monk_77: 312377312
+      player 1 monk_78: 1050793937
+      player 1 monk_79: -843441390
+      player 1 monk_8: -1383778202
+      player 1 monk_80: -1229501648
+      player 1 monk_81: -1092375414
+      player 1 monk_82: 1121687366
+      player 1 monk_83: 1425673455
+      player 1 monk_84: -140294275
+      player 1 monk_85: -77447427
+      player 1 monk_86: -1448805729
+      player 1 monk_87: 464468860
+      player 1 monk_88: 272978375
+      player 1 monk_89: 1300957945
+      player 1 monk_9: 1272596902
+      player 1 monk_90: -1757069590
+      player 1 monk_91: -1574685961
+      player 1 monk_92: 263498275
+      player 1 monk_93: 596502994
+      player 1 monk_94: -94892544
+      player 1 monk_95: -1112863720
+      player 1 monk_96: -880436014
+      player 1 monk_97: -17449369
+      player 1 monk_98: 703508787
+      player 1 monk_99: -1967322956
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
