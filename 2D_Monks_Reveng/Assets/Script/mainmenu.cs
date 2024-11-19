@@ -1,24 +1,27 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Needed to load new scenes
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    // This method will be called when the "Start" button is clicked
-    public void StartGame()
+    // Called when the Play button is clicked
+    public void PlayGame()
     {
-        // Load the game scene (ensure your game scene is added in Build Settings)
-        SceneManager.LoadScene("level"); // Replace "GameScene" with the name of your game scene
+        // Load the next scene (replace "GameScene" with your actual game scene name)
+        SceneManager.LoadScene("Level-1");
     }
 
-    // This method will be called when the "Exit" button is clicked
+    // Called when the Settings button is clicked
+    public void OpenSettings()
+    {
+        // Add functionality for opening settings here
+        Debug.Log("Settings button clicked!");
+    }
+
+    // Called when the Exit button is clicked
     public void ExitGame()
     {
-        // If running in the editor, stop the play mode
-#if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
-#else
-        // Quit the application
+        // Exit the application (won't work in the editor)
         Application.Quit();
-#endif
+        Debug.Log("Game is exiting");
     }
 }
