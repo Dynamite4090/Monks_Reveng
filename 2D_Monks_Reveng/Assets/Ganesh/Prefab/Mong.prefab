@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5477820728694918351}
   - component: {fileID: 3319800417228009251}
   - component: {fileID: 1726818054272848474}
+  - component: {fileID: 4345334026553823797}
   m_Layer: 0
   m_Name: Mong
   m_TagString: Player
@@ -195,3 +196,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpForce: 10
+  collectibleCount: 0
+  collectibleCountText: {fileID: 0}
+--- !u!114 &4345334026553823797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463122384034517120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ad34235abedb6643b0dfdb0ed081077, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 100
+  healthBar: {fileID: 0}
+  gameOverPanel: {fileID: 0}

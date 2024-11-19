@@ -110,11 +110,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Check for death (assuming "Enemy" tag causes player death)
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            Debug.Log("Collision with Enemy detected!");
-            Die();
-        }
+      
     }
 
     private void OnCollisionExit2D(Collision2D collision)
