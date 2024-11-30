@@ -9860,8 +9860,8 @@ GameObject:
   - component: {fileID: 515470080}
   - component: {fileID: 515470081}
   m_Layer: 5
-  m_Name: ScoreManger
-  m_TagString: Untagged
+  m_Name: ScoreMannger
+  m_TagString: ScoreMannager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11703,9 +11703,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1494.2333, y: 959.6669}
-  m_SizeDelta: {x: 772.1237, y: 167.53}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1345.0435, y: 973.1189}
+  m_SizeDelta: {x: 1125.4304, y: 190.6283}
+  m_Pivot: {x: 0.5, y: 0.4514982}
 --- !u!114 &596447357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11733,7 +11733,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 123
-    m_Alignment: 3
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -23263,6 +23263,7 @@ GameObject:
   - component: {fileID: 1308192354}
   - component: {fileID: 1308192353}
   - component: {fileID: 1308192358}
+  - component: {fileID: 1308192359}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -23387,6 +23388,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverPanel: {fileID: 2063082814}
+--- !u!114 &1308192359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308192352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e64f7ca11d5a05944b25984c5d75b748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 596447357}
 --- !u!1 &1311844856
 GameObject:
   m_ObjectHideFlags: 0
@@ -28686,7 +28700,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1476.4857, y: 783}
+  m_AnchoredPosition: {x: -1476.4857, y: 839}
   m_SizeDelta: {x: 279.4812, y: 74.3566}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1652031265
