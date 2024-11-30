@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         // Load the next scene (replace "GameScene" with your actual game scene name)
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level(1)");
     }
 
     // Called when the Settings button is clicked
