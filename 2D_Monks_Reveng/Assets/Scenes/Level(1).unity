@@ -35046,6 +35046,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1726818054272848474, guid: 06a93f734cbdf674e83308b9a1315809, type: 3}
+      propertyPath: jumpForce
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3463122384034517120, guid: 06a93f734cbdf674e83308b9a1315809, type: 3}
       propertyPath: m_Name
       value: Mong
