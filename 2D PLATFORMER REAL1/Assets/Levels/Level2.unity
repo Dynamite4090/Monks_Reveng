@@ -8365,6 +8365,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9db32257473a8514e8b69a0280f96527, type: 3}
+--- !u!1 &1567135703 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5570897485157292953, guid: 9db32257473a8514e8b69a0280f96527, type: 3}
+  m_PrefabInstance: {fileID: 1567135702}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1603541091
 GameObject:
   m_ObjectHideFlags: 0
@@ -11618,6 +11623,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 232235664935791198, guid: dddef818e84e394438c681363c9e085a, type: 3}
+      propertyPath: gameOverScreen
+      value: 
+      objectReference: {fileID: 1567135703}
     - target: {fileID: 5858605020608609204, guid: dddef818e84e394438c681363c9e085a, type: 3}
       propertyPath: BananaText
       value: 
