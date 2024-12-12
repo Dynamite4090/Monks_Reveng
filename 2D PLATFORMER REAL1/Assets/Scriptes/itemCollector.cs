@@ -21,7 +21,7 @@ public class itemCollector : MonoBehaviour
 
             Destroy(collision.gameObject);
                 Banana++;
-                BananaText.text = "Banana: " + Banana;
+                BananaText.text = " " + Banana;
             }
         }
     

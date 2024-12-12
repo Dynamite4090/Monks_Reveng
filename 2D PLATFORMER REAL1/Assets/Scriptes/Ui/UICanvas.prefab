@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Banana:  0'
+  m_Text: ' 0'
 --- !u!1 &4222336812783200338
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,6 +664,10 @@ PrefabInstance:
     - target: {fileID: 8364453846665514230, guid: 88d2d82c7a209694f8bab52d47365839, type: 3}
       propertyPath: m_Name
       value: Game Over Screeen
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364453846665514230, guid: 88d2d82c7a209694f8bab52d47365839, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

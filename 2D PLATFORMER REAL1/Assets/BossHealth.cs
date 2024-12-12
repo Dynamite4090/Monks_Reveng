@@ -1,11 +1,9 @@
-
 using Unity.VisualScripting;
 using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Health : MonoBehaviour
+public class BossHealth : MonoBehaviour
 {
     [Header("Health")]
     [SerializeField] private float startingHealth;
@@ -29,7 +27,6 @@ public class Health : MonoBehaviour
     [Header("Game Over")]
     [SerializeField] private GameObject gameOverScreen;
 
-
     private void Awake()
     {
         currentHealth = startingHealth;
@@ -49,7 +46,7 @@ public class Health : MonoBehaviour
 
         if (currentHealth > 0)
         {
-            anim.SetTrigger("hurt");
+            anim.SetTrigger("hurt2");
             StartCoroutine(Invulnerability());
             SoundManager.instance.PlayerSound(hurtsound);
         }
@@ -57,37 +54,25 @@ public class Health : MonoBehaviour
         {
             if (!dead)
             {
+                anim.SetTrigger("die2");
 
-
-                anim.SetTrigger("die");
-
-
-
-
-                //Player
-                if (GetComponent<PlayerMovment>() != null)
-                    GetComponent<PlayerMovment>().enabled = false;
-
-                //Enemy
-                if (GetComponentInParent<EnemyPatrol>() != null)
-                    GetComponentInParent<EnemyPatrol>().enabled = false;
-
-                if (GetComponent<MeleeEnemy>() != null)
-                    GetComponent<MeleeEnemy>().enabled = false;
+                // Disable the boss-specific behavior or other actions upon death
+                if (GetComponent<BossHealth>() != null)
+                    GetComponent<BossHealth>().enabled = false;
 
                 dead = true;
 
                 SoundManager.instance.PlayerSound(deathsound);
+
                 // Activate game over screen
                 if (gameOverScreen != null)
                 {
                     gameOverScreen.SetActive(true);
                 }
-
-
             }
         }
     }
+
     public void PlayAgain()
     {
         // Reload the current scene
@@ -111,20 +96,8 @@ public class Health : MonoBehaviour
         invulnerable = false;
     }
 
-
     public void AddHealth(float _value)
     {
         currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
     }
-
-
 }
-
-
-
-
-
-
-
-
-

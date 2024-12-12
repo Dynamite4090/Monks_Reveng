@@ -793,6 +793,14 @@ PrefabInstance:
       propertyPath: rightEdge
       value: 
       objectReference: {fileID: 838139641}
+    - target: {fileID: 383734389860524680, guid: bd8dda894d44f4b4daa8d7bec7a028ce, type: 3}
+      propertyPath: attackRange
+      value: 0.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 383734389860524680, guid: bd8dda894d44f4b4daa8d7bec7a028ce, type: 3}
+      propertyPath: attackDamage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1020315645547547631, guid: bd8dda894d44f4b4daa8d7bec7a028ce, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.5859585

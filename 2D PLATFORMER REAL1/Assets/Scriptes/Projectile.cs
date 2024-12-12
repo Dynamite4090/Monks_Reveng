@@ -53,4 +53,11 @@ public class Projectile : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        Health health = collision.gameObject.GetComponent<Health>();
+      
+    }
 }
+
+
